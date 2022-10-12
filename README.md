@@ -1,6 +1,9 @@
 # WakaboomeeWebsite
+
 A WIP Website 
+
 Page Documentation and Layout Explanation
+
 In order to not waste your time trying to make it look like more was done, I will only put down actions I took once.  So if I used the same or a similar concept on another page I wont place it on the word doc repeatedly.
 
 Lets start with the homepage:	
@@ -13,7 +16,7 @@ Lets start with the homepage:
 •	Added  a shadow background behind the main wallpaper to add contrast because the body color is close to one of the background colors
 •	Created a promo video from scratch using canva and put it on the site.
 ```dif
-•	Attempted an image map and despite double checking my cords, I couldn’t get it to work.
+•	Still working on image map!
 ```
 •	Created an overall layout using div tags
 •	Made it so anything larger than 640px would split single columns into two columns using Flex Wrap
@@ -26,6 +29,9 @@ o	Used a separate CSS sheet to add a non-colored print page
 
 Donate Page:
 o	Added links to telephone and email
-o	Attempted a webform before rage quitting in a hail of fury after struggling for several days. Honestly Ive added and then deleted so much from this section alone its unreal.
+```dif
+•	Attempted a webform before rage quitting in a hail of fury after struggling for several days. Honestly Ive added and then deleted so much from this section alone its unreal. So WIP still Haha.
+```
+
 
 
