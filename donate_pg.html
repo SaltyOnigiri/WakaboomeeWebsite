@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<!--
+    New Perspectives on HTML5 and CSS3, 7th Edition
+    Final Project
+    
+    Wakaboomee Homepage
+    Author: Camryn Way
+    Date:  11.11.2021
+
+    Filename: home_pg.html
+   -->
+   <meta charset="utf-8">
+   <meta name="keywords" content="Wakaboomee, coding, kid, class, donate" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Wakaboomers Homepage</title>
+   <link href="format_donate.css" rel="stylesheet"/>
+	<link href="grids.css" rel="stylesheet"/>
+	<link href="form_validate.css" rel="stylesheet"/>
+<div class="row">
+<body>
+	<header>
+	<img src="Wakaboomee.png" alt="Wakaboomee Adventure" />
+		<nav class="horizontalNavigation">
+			<ul>
+				<li><a href="home_pg.html">Home</a></li>
+				<li><a href="sessions_pg.html">Our Sessions</a></li>
+				<li><a href="donate_pg.html">Donate Here</a></li>
+			</ul>
+		</nav>
+	</header>
+</div>
+	
+<div class="row">
+   <div class="col-1-2">
+		<h1>How to support Us!</h1>
+		<p> Together we can change things for children.  Make a donation
+		today and help a school experience STEAM Education with
+		The Wakaboomee Program 501(c)3! 
+
+		 <p>Join Our Wakaboomee Family Of Supporters Today!
+		 Thank you so much for helping!</p> 
+		
+		
+	</div>
+	
+<div class="row">
+	<div class="col-1-2">
+		<h1> Contact Us</h1>
+		<p> Call: <a href="tel:+9193376202">(919)-337-6202</a></p>
+		<p>Email: <a href="mailto:wakaboomee@gmail.com">wakaboomee@gmail.com</a></p>
+		
+		<p>If you want to go fast, go alone.  If you want to go far, go together.
+		Together we can change everything.</p>
+	</div>
+		
+	  </div>
+	<div class="formRow">
+	  
+	  <form id="donation" action="http://www.example.com/sb/payment" method="post"> 
+	    <fieldset id="creditCard">
+                  <legend>Donation Amount (required)</legend>
+				  <label for="info">What Would You Like To Donate?</label>
+				  <select name="infoSrc" id="info" size="5">
+					<option value="5">$5</option>
+					<option value="10">$10</option>
+					<option value="15">$15</option>
+					<option value="20">$20</option>
+					<option value="25">$25</option>
+					</select>
+				
+				<div class="formRow">
+					<div class="col-1-2">
+					<label for="info">Donate Once or Monthly?</label>
+				    <select name="infoSrc" id="info" size="2">
+					<option value="single">Single Donation</option>
+					<option value="monthly">Monthly Donation</option>
+					</select>
+				</div>
+			</div>
+		</fieldset>
+		<fieldset id="creditCard">
+                  <legend>Credit Card (required)</legend>
+                  <fieldset required="required"> 
+                     <label class="cardLabel">
+                        <input type="radio" name="cCard"/> <img src="sb_amex.png"/>
+                     </label>
+                     <label class="cardLabel">
+                        <input  type="radio" name="cCard"/> <img src="sb_discover.png"/>
+                     </label>
+                     <label class="cardLabel">
+                        <input  type="radio" name="cCard"/> <img src="sb_master.png"/>
+                     </label>
+                     <label class="cardLabel">
+                        <input type="radio" name="cCard"/> <img src="sb_visa.png"/>
+                     </label>
+                  </fieldset>
+                  
+                  <label for="cardNumber">Credit Card Number</label>
+                  <input name="cardNumber" id="cardBox" required="required" pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$"/>
+                  
+                  <label>Expiration Date</label>
+                  <select id="monthList" required="required"> 
+                     <option value="--Month--">--Month--</option>
+                     <option value="January (01)">January (01)</option>
+                     <option value="February (02)">February (02)</option>
+                     <option value="March (03)">March (03)</option>
+                     <option value="April (04)">April (04)</option>
+                     <option value="May (05)">May (05)</option>
+                     <option value="June (06)">June (06)</option>
+                     <option value="July (06)">July (07)</option>
+                     <option value="August (08)">August (08)</option>
+                     <option value="September (09)">September (09)</option>
+                     <option value="October (10)">October (10)</option>
+                     <option value="November (11)">November (11)</option>
+                     <option value="December (12)">December (12)</option>
+                  </select>
+                  <select id="yearList" required="required">
+                     <option value="--Year--">--Year--</option>
+                     <option value="2014">2014</option>
+                     <option value="2015">2015</option>
+                     <option value="2016">2016</option>
+                     <option value="2017">2017</option>
+                     <option value="2018">2018</option>
+					 <option value="2019">2019</option>
+                     <option value="20120">2020</option>
+					 <option value="2021">2021</option>               
+                  </select>
+                  
+                  <label for="csc">CSC</label>
+                  <input id="cscBox" pattern="^\d{3}$" placeholder="nnn" required="required"/>      
+       </fieldset>
+	</div>	   
+	         <div id= "submit">
+                <input type="submit" value="Submit">
+            </div>
+	  </form>
+	
+
+<div class="row">
+	<footer>
+		Wakaboomee Adventure  &#149; 919-337-6202 &#149; wakaboomee@gmail.com
+	</footer>
+</div>
+</div>
+</body>
+</html>

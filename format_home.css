@@ -1,0 +1,174 @@
+@charset "utf-8";
+/*
+    New Perspectives on HTML5 and CSS3, 7th Edition
+    Final Project
+    
+    Wakaboomee Homepage
+    Author: Camryn Way
+    Date:  12.7.2021
+
+    Filename: format_home.css
+
+*/
+
+/* Platform Layout */
+html {
+	height: 100%;
+	background-image: url(background.png);
+
+}
+
+body {
+  background-color: rgb(255, 251, 245);
+  font-family: Georgia, arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;  
+  border-left: 1px solid rgb(255, 194, 198);
+  border-right: 1px solid rgb(255, 194, 198);
+  box-shadow: rgb(255, 194, 198) 15px 0px 25px,
+			   rgb(255, 194, 198) -15px 0px 25px;
+}
+
+header, nav, li {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Header Layout */
+
+ header > img {
+	display:block;
+	width: 100%;
+}
+
+header > nav.horizontalNavigation li{
+	 width: 33.33%;
+	
+}
+
+nav.horizontalNavigation ul, li {
+   background-color: rgb(18, 31, 102);  
+   font-size: 0.9em;
+   padding: 10px 0;
+   list-style-type: none;
+	Overflow: hidden;
+   text-align: center;     
+}
+
+nav.horizontalNavigation a:link, nav.horizontalNavigation a:visited {
+   color: rgb(115, 225, 240);
+}
+
+nav.horizontalNavigation a:hover, nav.horizontalNavigation a:active {
+   color: rgb(252, 255, 255);
+}
+
+nav.horizontalNavigation li{
+	display: block;
+	float: left;
+}
+
+/* Check me for nav design */
+header {
+  text-align: center;
+  font-size: 35px;
+}
+
+/* 3rd Row Layout */
+figure > img {
+	display: block;
+	width: 100%;
+}
+
+video {
+	display:block;
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+	color: rgb(38, 52, 163);
+}
+
+div > p {
+	position: relative; 
+    text-align: center;
+    width: 100%;
+	color: gray;
+}
+
+figure > figcaption {
+	position: relative; 
+    text-align: center;
+    width: 100%;
+	color: gray;
+}
+
+
+/* 4th Row Layout */
+
+ section > img {
+    width:  350px;
+    height: 300px;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+blockquote, h2, h3 {
+    position: relative; 
+    text-align: center;
+    padding: 1 1.2;
+   }
+   
+   
+  h2 {
+	color: rgb(38, 52, 163);
+   } 
+   
+   blockquote, h3 {
+	   color: gray;
+   }
+
+/* footer Layout */
+footer {
+  background-color: rgb(18, 31, 102); 
+  padding: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(252, 255, 255);
+}
+
+/* Media Queries */
+/* 
+=============================
+Mobile styles: 0px to 480px 
+=============================
+*/
+
+@media screen and (min-width: 640px){
+    
+		
+	.box {
+		display: flex;
+		
+	}
+	#column1 {
+		-webkit-flex: 1 1 auto;
+		flex: 1 1 auto;
+		flex-basis: 0px;
+		flex-grow: 1;
+	}
+	#column2 {
+		-webkit-flex: 1 1 auto;
+		flex: 1 1 auto;
+		flex-basis: 0px;
+		flex-grow: 1;
+	}
+	
+	
+    }    
+}
+

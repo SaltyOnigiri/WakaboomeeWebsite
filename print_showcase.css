@@ -1,0 +1,32 @@
+<meta charset="utf-8">
+/*
+    New Perspectives on HTML5 and CSS3, 7th Edition
+    Final Project
+    
+    Wakaboomee Homepage
+    Author: Camryn Way
+    Date:  12.7.2021
+
+    Filename: stylesheet_1.css
+
+*/
+/* Page Area */
+
+	@page {
+		size: 8.5in 11in;
+		margin: 0.5in;
+	}
+	
+	body img {
+		border: 2px solid rgb(191, 191, 191);
+		display: block;
+		margin: 0.25in auto;
+		width: 65%;
+	}
+	
+	dl {
+		orphan: 3;
+		widows: 3;
+	}
+
+/* Margin Area */

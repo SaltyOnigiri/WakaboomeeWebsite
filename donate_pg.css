@@ -1,0 +1,46 @@
+@charset "utf-8";
+/*
+    New Perspectives on HTML5 and CSS3, 7th Edition
+    Final Project
+    
+    Wakaboomee Homepage
+    Author: Camryn Way
+    Date:  12.7.2021
+
+    Filename: donate_pg.css
+
+*/
+/* Window and Body Styles */
+
+html {
+	height: 100%;
+}
+
+body {
+	width: 95%;
+	max-width: 960px;
+	min-width: 640px;
+	min-height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header, nav, li {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clear floats after the columns */
+body > footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+article#leftColumn, article#rightColumn, article#bttmColumn {
+    width: 100%;
+  }
+}
